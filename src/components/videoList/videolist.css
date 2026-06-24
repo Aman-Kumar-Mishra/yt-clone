@@ -1,0 +1,41 @@
+
+.recommended-video{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended-video-container-one{
+    display: flex;
+}
+
+.recommended-video-description{
+    padding-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.recommended-video-title{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.recommended-video-channel-name{
+    margin-bottom: 5px;
+    font-size: 10px;
+    color: grey;
+}
+
+.recommended-video-stats{
+    display: flex;
+    font-size: 9px;
+}
+
+.recommended-video-upload-time{
+    margin-left: 6px;
+}
+
+.recommended-video-options{
+    margin-right: 4px;
+}

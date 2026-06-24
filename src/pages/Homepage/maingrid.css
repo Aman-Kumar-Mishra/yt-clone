@@ -1,0 +1,126 @@
+.maingrid{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+    /* background-color: white; */
+    margin-top: 37px;
+    /* margin-left: 60px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+
+.maingrid section{
+    height: auto;
+    margin-bottom: 20px;
+    /* max-width: 300px; */
+    /* margin-right: 10px; */
+    /* height: 209.25px; */
+    /* width: 300px; */
+    /* background-color: lightblue; */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    cursor: pointer;
+}
+
+.video-thumbnail{
+    width: 100%;
+    /* background-color: green; */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    margin-bottom: 5px;
+}
+
+.video-thumbnail img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.video-footer{
+    height: auto;
+    width: 100%;
+    padding-top: 5px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.channel-dp{
+    width: 40px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.channel-dp img{
+    width: 25px;
+}
+
+.video-description{
+    width: 100%;
+    /* background-color: blue; */
+    /* padding-left: 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.video-title{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.video-stats{
+    font-size: 10px;
+}
+
+.video-options{
+    width: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.video-options button{
+    padding: 2px 1px 0;
+    /* margin-top: 5px; */
+    background-color: white;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    transition: background-color .15s ease-out;
+    cursor: pointer;
+}
+
+.video-options button:hover{
+    background-color: rgb(195,192,192);
+}
+
+.video-options img{
+    width: 12px;
+}
+
+.video-stats{
+    color: rgb(120,120,120);
+}
+
+.video-stats span{
+    margin-right: 3px;
+}
+
+.channel-name{
+    transition: background-color .15s ease;
+}
+
+.channel-name:hover{
+    color: black;
+}

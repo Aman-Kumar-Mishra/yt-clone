@@ -1,0 +1,47 @@
+.history-options{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: start;
+    position: fixed;
+}
+
+.history-options button{
+    padding: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-top: 15px;
+}
+
+.history-options a{
+    margin-left: 23px;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.history-options span{
+    margin-left: 5px;
+}
+
+.history-options>div{
+    display: flex;
+    align-items: center;
+}
+
+.history-options input{
+    border: none;
+    margin-left: 5px;
+}
+
+.history-options>div{
+    border-bottom: 2px solid black;
+}
+
+
+.history-options input::placeholder{
+    font-size: 12px;
+}

@@ -1,0 +1,75 @@
+.pagecard{
+    width: fit-content;
+    height: fit-content;
+    background-color: grey;
+    padding: 20px 20px 160px 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+
+.pagecard-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.pagecard-content>div{
+    display: flex;
+    justify-content: start;
+}
+
+.pagecard-username{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.pagecard-stats{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.pagecard-stats>span{
+    margin-right: 5px;
+}
+
+.pagecard-options-button{
+    margin-bottom: 10px;
+}
+
+.pagecard-options-button>button{
+    padding: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 12.5px;
+    border: none;
+    background-color: rgb(200, 197, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.pagecard-accessibilities>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    margin-right: 10px;
+    padding: 6px 18px;
+    font-size: 12px;
+}
+
+.pagecard-accessibilities img{
+    margin-right: 5px;
+}
+
+.pagecard-shuffle-button{
+    background-color: rgb(200, 196, 196);
+}

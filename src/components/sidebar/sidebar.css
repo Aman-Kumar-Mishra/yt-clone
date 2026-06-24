@@ -1,0 +1,138 @@
+.sidebar {
+    width: 60px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    /* border-right: 2px solid black; */
+    z-index: 100;
+}
+
+.sidebar  button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 52px;
+    border-radius: 12px;
+    margin-bottom: 1px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color .15s ease;
+}
+
+.sidebar button:hover{
+    background-color: rgb(225,225,225);
+}
+
+.sidebar img{
+    width: 18px;
+    margin-bottom: 2px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar span{
+    display: block;
+    font-size: 7px;
+    /* text-decoration: none; */
+}
+
+.sidebar-toggled{
+    background-color: white;
+    margin-top: 40px;
+    width: fit-content;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* padding-right: 20px; */
+    font-size: 12px;
+    /* text-decoration: none; */
+    /* padding-left: 21px; */
+    padding-top: 13px;
+}
+
+.sidebar-toggled a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-toggled section{
+    /* background-color: green; */
+    border-bottom: 2px solid rgb(225,225,225);
+    padding-left: 21px;
+    padding-top: 10px;
+}
+
+.sidebar-toggled p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sidebar-toggled section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.sidebar-toggled section div span{
+    margin-left: 20px;
+}
+
+.feed-sidebar{
+    background-color: white;
+    margin-top: 40px;
+    width: fit-content;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding-right: 20px;
+    font-size: 12px;
+    /* padding-left: 21px; */
+    padding-top: 13px;
+    z-index: 200;
+}
+
+.feed-sidebar section{
+    /* background-color: green; */
+    border-bottom: 2px solid rgb(225,225,225);
+    padding-left: 21px;
+    padding-top: 10px;
+}
+
+.feed-sidebar p{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.feed-sidebar section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.feed-sidebar section div span{
+    margin-left: 20px;
+}
+
+.feed-sidebar a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,22 @@
+.downloads-sidebar-open{
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    margin-top: 60px;
+}
+.downloads-sidebar-closed{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.pagecard-container{
+    width: 280px;
+    /* background-color: blue; */
+}
+
+.downloads-videolist{
+    margin-right: 10px;
+    flex: 1;
+}

@@ -1,0 +1,25 @@
+.watched-videos{
+    width: 400px;
+    margin-left: 170px;
+    margin-top: 60px;
+    padding-left: 100px;
+}
+
+.watched-videos-sidebar-closed{
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 60px;
+    padding-left: 100px;
+}
+
+.history-page-container{
+    display: flex;
+}
+
+.history-options-container{
+    margin-top: 50px;
+    /* background-color: grey; */
+    flex: 1;
+    padding-left: 100px;
+    padding-top: 50px;
+}
