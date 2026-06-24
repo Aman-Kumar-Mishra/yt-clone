@@ -1,0 +1,87 @@
+.channel-top-card{
+    width: fit-content;
+    /* height: fit-content; */
+    margin-top: 45px;
+    margin-left: 170px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+
+}
+
+.channel-banner-image{
+    width: fit-content;
+    /* margin-left: 50px;    */
+    display: flex;
+    justify-content: start;
+}
+
+.channel-banner-image img{
+    width: 90%;
+    border-radius: 15px;
+}
+
+.channeltopcard-channel-description-content{
+    display: flex;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+}
+
+.channeltopcard-navigation{
+    /* margin-left: 50px;    */
+    margin-top: 10px;
+}
+
+.channeltopcard-channel-dp img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.channeltopcard-channel-name{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.channeltopcard-channel-description{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 10px;
+}
+
+.channeltopcard-channel-description button{
+    font-size: 10px;
+}
+
+.channeltopcard-channel-description div{
+    margin-bottom: 5px;
+}
+
+#channeltopcard-more-button{
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+
+.channeltopcard-subscribe-button{
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 15px;
+    border: none;
+}
+
+.channeltopcard-subscribe-button span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.channeltopcard-navigation button{
+    font-size: 12px;
+    background-color: white;
+    border: none;
+    padding: 0;
+    margin-right: 20px;
+}

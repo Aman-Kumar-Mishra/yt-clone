@@ -8,6 +8,7 @@ import { WatchLaterPage } from './pages/watchlaterpage/WatchLaterPage'
 import { PlaylistPage } from './pages/playlistpage/PlaylistPage'
 import { LikedPage } from './pages/likedpage/LikedPage'
 import { DownloadsPage } from './pages/downloadspage/DownloadsPage'
+import { ChannelPage } from './pages/channelpage/ChannelPage'
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/subscriptions' element={<SubscriptionsPage menu={menu} setMenu={setMenu}/>}/>
         <Route path='/playlist' element={<PlaylistPage menu={menu} setMenu={setMenu}/>} />
         <Route path='/downloads' element={<DownloadsPage menu={menu} setMenu={setMenu} />} />
+        <Route path='/channel' element={<ChannelPage menu={menu} setMenu={setMenu} />} /> 
       </Routes>
     </>
   )
