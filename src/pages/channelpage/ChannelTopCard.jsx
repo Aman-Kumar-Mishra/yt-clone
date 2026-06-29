@@ -1,6 +1,7 @@
+import { NavLink } from 'react-router-dom'
 import './channeltopcard.css'
 
-export function ChannelTopCard(){
+export function ChannelTopCard({isActive}){
     return(
         <main className="channel-top-card">
             <section className="channel-banner-image">
@@ -32,12 +33,22 @@ export function ChannelTopCard(){
             </section>
             <section className='channeltopcard-navigation'>
                 <div>
-                    <button>Home</button>
-                    <button>Videos</button>
-                    <button>Releases</button>
-                    <button>Playlists</button>
-                    <button>Posts</button>
-                    <button>
+                    <NavLink to='/channel-home'>
+                        <button id={isActive==='home'?'decorate':''}>Home</button>
+                    </NavLink>
+                    <NavLink to='/channel-videos'>
+                        <button id={isActive==='videos'?'decorate':''}>Videos</button>
+                    </NavLink>
+                    <NavLink to='/channel-releases'>
+                        <button id={isActive==='releases'?'decorate':''}>Releases</button>
+                    </NavLink>
+                    <NavLink to='/channel-playlists'>
+                        <button id={isActive==='playlists'?'decorate':''}>Playlists</button>
+                    </NavLink>
+                    <NavLink to='/channel-posts'>
+                        <button id={isActive==='posts'?'decorate':''}>Posts</button>
+                    </NavLink>
+                    <button className='channeltopcard-search-button'>
                         <img src="search-button.svg" width='12px' alt="" />
                     </button>
                 </div>
