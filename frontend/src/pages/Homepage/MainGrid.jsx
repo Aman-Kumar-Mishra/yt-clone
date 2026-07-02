@@ -12,7 +12,7 @@ export function MainGrid({menu}){
                     </NavLink>
                 </div>
                 <div className='video-footer'>
-                    <NavLink to='/channel'>
+                    <NavLink to='/channel-home'>
                         <div className='channel-dp'>
                             <img src="channel-img-1.jpg" alt="" />
                         </div>
@@ -22,7 +22,7 @@ export function MainGrid({menu}){
                             <span>HTML & CSS Full Course- Beginner to pro</span>
                         </div>
                         <div className='video-stats'>
-                            <NavLink to='/channel'>
+                            <NavLink to='/channel-home'>
                                 <span className='channel-name'>SuperSimpleDev</span>
                             </NavLink>
                             <span>1.8 crore</span>
